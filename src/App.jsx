@@ -1,35 +1,23 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Stack } from "@bedrock-layout/stack";
 
+import { Subscribe } from "./Subscribe";
+import { Menu } from "./Menu";
+import styled from "styled-components";
+
+const UserInterface = styled.div`
+  width: 1170px;
+  margin-inline: auto;
+  padding-inline: 2em;
+`;
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
-  )
+    <UserInterface>
+    <Stack gutter='size3'>
+      <Menu />
+      <Subscribe />
+    </Stack>
+    </UserInterface>
+  );
 }
 
-export default App
+export default App;
