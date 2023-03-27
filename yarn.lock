@@ -263,6 +263,14 @@
     "@bedrock-layout/spacing-constants" "^3.2.4"
     "@bedrock-layout/type-utils" "^0.1.1"
 
+"@bedrock-layout/padbox@^3.1.7":
+  version "3.1.7"
+  resolved "https://registry.yarnpkg.com/@bedrock-layout/padbox/-/padbox-3.1.7.tgz#3480ffd01182fdd7178df299329c523dd003e152"
+  integrity sha512-sj5W4g+Hctuh4i6xxOxp5A2Pe9w6Y/kt82NYoGQm2fFvOZ1hoS0Deq46bvttVPziEuWTHr7vKY2W3XOaDB+Hnw==
+  dependencies:
+    "@bedrock-layout/spacing-constants" "^3.2.4"
+    "@bedrock-layout/type-utils" "^0.1.1"
+
 "@bedrock-layout/spacing-constants@^3.2.4":
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/@bedrock-layout/spacing-constants/-/spacing-constants-3.2.4.tgz#7888492333a15fc0faba45f22089edc837b2c1c8"

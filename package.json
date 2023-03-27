@@ -15,6 +15,7 @@
     "@bedrock-layout/css": "^2.2.9",
     "@bedrock-layout/inline": "^4.1.6",
     "@bedrock-layout/inline-cluster": "^3.1.6",
+    "@bedrock-layout/padbox": "^3.1.7",
     "@bedrock-layout/stack": "^3.1.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

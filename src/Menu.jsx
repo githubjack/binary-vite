@@ -1,24 +1,21 @@
 import { Inline } from '@bedrock-layout/inline';
-import styled from 'styled-components';
+import { InlineCluster } from '@bedrock-layout/inline-cluster';
+
+import { Logo } from './components/Logo';
 import './index.css';
 
-const Logo = styled.img`
-  width: 60px;
-  height: 60px;
-  display: flex;
-  margin-right:4em;
-`;
+
 
 export function Menu() {
   return (
-    <Inline stretch={1} gutter='size3' switchAt='40rem'>
-      <Logo src='/Binary_logo_white.png' alt='Go' />
-      <Inline gutter='size3' justify='start' className='nav-items'>
+    <Inline stretch={1} gutter='size3' align='center' switchAt='40rem'>
+      <Logo />
+      <InlineCluster gutter='size3' justify='start'>
         <a href="/#">Home</a>
         <a href="/#">Profile</a>
         <a href="/#">Work</a>
         <a href="/#">Blogs</a>
-      </Inline>
+      </InlineCluster>
 
       <Inline gutter='size3' justify='end'>
         <button>Contact</button>
