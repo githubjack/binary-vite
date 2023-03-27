@@ -217,6 +217,31 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
+"@bedrock-layout/appboundary@^3.1.6":
+  version "3.1.6"
+  resolved "https://registry.yarnpkg.com/@bedrock-layout/appboundary/-/appboundary-3.1.6.tgz#2970ffc0e39b8b44b0b395bb1b2ac151316a97f1"
+  integrity sha512-0ybbQ4cj42LEV/9+www/66G0newoxNJGFkCeIGGQf4y7aNqe2i1RSVgy5vkhw+WpipEBFJvtT4kROgTYZOPJeQ==
+  dependencies:
+    "@bedrock-layout/center" "^3.1.6"
+    "@bedrock-layout/spacing-constants" "^3.2.4"
+    "@bedrock-layout/type-utils" "^0.1.1"
+
+"@bedrock-layout/center@^3.1.6":
+  version "3.1.6"
+  resolved "https://registry.yarnpkg.com/@bedrock-layout/center/-/center-3.1.6.tgz#525d26ec232bd7f74ccea460176255af6da44b85"
+  integrity sha512-Kd8hdJGKGyCio/G7NaeC0qe3rXeVwdrC+Dm06CdWgUUbVZFHbcV/+/dClYxeCGqpaWWNSB6IFbwhehREcYMhJg==
+  dependencies:
+    "@bedrock-layout/spacing-constants" "^3.2.4"
+    "@bedrock-layout/type-utils" "^0.1.1"
+
+"@bedrock-layout/cover@^3.1.8":
+  version "3.1.8"
+  resolved "https://registry.yarnpkg.com/@bedrock-layout/cover/-/cover-3.1.8.tgz#794e8a1c03fd691e7aacd097929eeb7ee9223cac"
+  integrity sha512-uL3M4UODlYAEMgUeAJB8XeNmNMF/c1YB2hkTVRVydTp5uc3yQqcTcVqBiM8iSe2wbj9eZC7GXZzpGOvF78yCaQ==
+  dependencies:
+    "@bedrock-layout/spacing-constants" "^3.2.4"
+    "@bedrock-layout/type-utils" "^0.1.1"
+
 "@bedrock-layout/css@^2.2.9":
   version "2.2.9"
   resolved "https://registry.yarnpkg.com/@bedrock-layout/css/-/css-2.2.9.tgz#69bf07a64e357be96414081a42d1ab06a2b78572"

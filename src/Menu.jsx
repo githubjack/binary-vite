@@ -1,24 +1,26 @@
 import { Inline } from '@bedrock-layout/inline';
 import styled from 'styled-components';
+import './index.css';
 
 const Logo = styled.img`
   width: 60px;
   height: 60px;
   display: flex;
+  margin-right:4em;
 `;
 
 export function Menu() {
   return (
-    <Inline stretch={1} gutter='size3'>
+    <Inline stretch={1} gutter='size3' switchAt='40rem'>
       <Logo src='/Binary_logo_white.png' alt='Go' />
-      <Inline gutter='size3' justify='start'>
+      <Inline gutter='size3' justify='start' className='nav-items'>
         <a href="/#">Home</a>
         <a href="/#">Profile</a>
         <a href="/#">Work</a>
         <a href="/#">Blogs</a>
       </Inline>
 
-      <Inline gutter='size3'>
+      <Inline gutter='size3' justify='end'>
         <button>Contact</button>
       </Inline>
     </Inline>

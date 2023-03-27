@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #000000;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -26,7 +26,9 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
-
+a {
+  text-decoration: none;
+}
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -57,4 +59,11 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+
+.nav-items {
+  display:flex;
+  align-items:center;
+  height:60px;
 }
