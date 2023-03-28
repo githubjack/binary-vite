@@ -16,7 +16,7 @@ export function Menu() {
   return (
     <Inline stretch={1} gutter='size3' align='center' switchAt='40rem'>
       <SvgComponent>
-        <LogoImage className="svg-container" />
+        <LogoImage />
      </SvgComponent>
       <InlineCluster gutter='size3' justify='start'>
         <a href="/#">Home</a>
