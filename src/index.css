@@ -73,15 +73,20 @@ button:focus-visible {
 .svg-container {
 width:auto;
 
-
-  /*
-  This does not work,
-  wrapping a div round the svg due to elemrnt heirachy; rule does not propagate
-  */
 }
+.logo-svg{
+  width:64px;
+  height:64px;
+  display: flex;
+}
+
+/*
 path {
   fill: peru
 }
+*/
 path:hover{
-  fill: hotpink
+  fill: #3BB9B4;
+  stroke: none;
+  cursor:pointer;
 }
