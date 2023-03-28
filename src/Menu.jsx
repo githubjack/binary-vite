@@ -1,7 +1,6 @@
 import { Inline } from '@bedrock-layout/inline';
 import { InlineCluster } from '@bedrock-layout/inline-cluster';
 import { ReactComponent as LogoImage } from './assets/binary-logo.svg';
-/*import { Logo } from './components/Logo';*/
 import styled from 'styled-components';
 import './index.css';
 

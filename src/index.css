@@ -14,8 +14,6 @@
   -webkit-text-size-adjust: 100%;
 }
 
-
-
 body {
   margin: 0;
   min-width: 320px;
@@ -29,7 +27,7 @@ h1 {
 a {
   text-decoration: none;
   font-weight: 600;
-  font-size:0.8rem;
+  font-size: 0.8rem;
 }
 button {
   border-radius: 8px;
@@ -63,30 +61,25 @@ button:focus-visible {
   }
 }
 
-
-.nav-items {
-  display:flex;
-  align-items:center;
-  height:60px;
+/*
+headline
+*/
+.hero-text {
+  max-inline-size: 14ch;
 }
-
-.svg-container {
-width:auto;
-
-}
-.logo-svg{
-  width:64px;
-  height:64px;
+.logo-svg {
+  width: 64px;
+  height: 64px;
   display: flex;
 }
 
 /*
-path {
+pa  max-inline-size: 40ch;th {
   fill: peru
 }
 */
-path:hover{
-  fill: #3BB9B4;
+svg.logo-svg path:hover {
+  fill: #3bb9b4;
   stroke: none;
-  cursor:pointer;
+  cursor: pointer;
 }
