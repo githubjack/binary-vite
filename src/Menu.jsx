@@ -1,15 +1,23 @@
 import { Inline } from '@bedrock-layout/inline';
 import { InlineCluster } from '@bedrock-layout/inline-cluster';
-
-import { Logo } from './components/Logo';
+import { ReactComponent as LogoImage } from './assets/svg-logo.svg';
+/*import { Logo } from './components/Logo';*/
+import styled from 'styled-components';
 import './index.css';
 
 
+const SvgComponent = styled.span`
+  display: flex;
+  width: 48px;
+  height:48px;
+`;
 
 export function Menu() {
   return (
     <Inline stretch={1} gutter='size3' align='center' switchAt='40rem'>
-      <Logo />
+      <SvgComponent>
+        <LogoImage className="svg-container" />
+     </SvgComponent>
       <InlineCluster gutter='size3' justify='start'>
         <a href="/#">Home</a>
         <a href="/#">Profile</a>

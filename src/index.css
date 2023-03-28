@@ -69,3 +69,19 @@ button:focus-visible {
   align-items:center;
   height:60px;
 }
+
+.svg-container {
+width:auto;
+
+
+  /*
+  This does not work,
+  wrapping a div round the svg due to elemrnt heirachy; rule does not propagate
+  */
+}
+path {
+  fill: peru
+}
+path:hover{
+  fill:hotpink
+}

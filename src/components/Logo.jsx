@@ -1,13 +1,12 @@
 import styled from 'styled-components';
+import { ReactComponent as LogoImage } from '/svg-logo.svg';
 
-const LogoImage = styled.img`
-width: 60px;
-display: flex;
 
-`;
 
-export function Logo() {
+
+export default function Logo() {
   return (
-    <LogoImage src='/Binary_logo_white.png' alt='' />
+    <LogoImage />
   );
 }
+
